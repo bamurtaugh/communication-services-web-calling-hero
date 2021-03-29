@@ -16,7 +16,32 @@ import { CallEndReason } from '@azure/communication-calling';
 const sdkVersion = require('../package.json').dependencies['@azure/communication-calling'];
 const lastUpdated = `Last Updated ${utils.getBuildTime()} with @azure/communication-calling:${sdkVersion}`;
 
-loadTheme({});
+loadTheme({ 
+  palette: { 
+    themePrimary: '#ff5200', 
+    themeLighterAlt: '#fff8f5', 
+    themeLighter: '#ffe3d6', 
+    themeLight: '#ffcbb3', 
+    themeTertiary: '#ff9666', 
+    themeSecondary: '#ff661f', 
+    themeDarkAlt: '#e64900', 
+    themeDark: '#c23d00', 
+    themeDarker: '#8f2d00', 
+    neutralLighterAlt: '#f3f0ec', 
+    neutralLighter: '#efece8', 
+    neutralLight: '#e5e2df', 
+    neutralQuaternaryAlt: '#d6d2cf', 
+    neutralQuaternary: '#ccc9c6', 
+    neutralTertiaryAlt: '#c4c1be', 
+    neutralTertiary: '#a19f9d', 
+    neutralSecondary: '#605e5c', 
+    neutralPrimaryAlt: '#3b3a39', 
+    neutralPrimary: '#323130', 
+    neutralDark: '#201f1e', 
+    black: '#000000', 
+    white: '#f9f5f1', 
+  } 
+}); 
 initializeIcons();
 
 const store = createStore(reducer, applyMiddleware(thunk));
