@@ -37,7 +37,7 @@ export default (props: HomeScreenProps): JSX.Element => {
     'Customize with your web stack',
     'Connect with users with seamless collaboration across web',
     'High quality, low latency capabilities for an uninterrupted calling experience',
-    'Learn about this'
+    'Learn about this '
   ];
   return (
     <Stack horizontal horizontalAlign="center" verticalAlign="center" tokens={containerTokens}>
