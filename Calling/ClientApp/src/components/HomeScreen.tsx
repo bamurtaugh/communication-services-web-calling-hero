@@ -54,6 +54,10 @@ export default (props: HomeScreenProps): JSX.Element => {
                 <li className={listItemStyle}>
                     <Icon className={iconStyle} iconName={iconName} /> {listItems[2]}
                 </li>
+                <li className={listItemStyle}>
+                  <Icon className={iconStyle} iconName={iconName} /> {listItems[3]}{' '}
+                  <a href="https://docs.microsoft.com/en-us/azure/communication-services/samples/calling-hero-sample?pivots=platform-web">sample</a>
+                </li>
             </ul>
         </Stack>
         <PrimaryButton className={buttonStyle} onClick={props.startCallHandler}>
