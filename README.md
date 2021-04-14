@@ -6,8 +6,6 @@ This is a sample application to show how the Azure Communication Services Callin
 The client-side application is a React based user interface which uses Redux for handling complex state while leveraging Microsoft Fluent UI. 
 Powering this front-end is a C# web application powered by ASP.NET Core to connect this application with Azure Communication Services.
 
-Test change.
-
 Additional documentation for this sample can be found on [Microsoft Docs](https://docs.microsoft.com/azure/communication-services/samples/calling-hero-sample).
 
 ![Homepage](./Media/homepage-sample-calling.png)
