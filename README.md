@@ -1,6 +1,6 @@
 [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure-Samples%2Fcommunication-services-web-calling-hero%2Fmain%2Fdeploy%2Fazuredeploy.json)
 
-# Group Calling Sample
+# Group Calling Sample: Test Change
 
 This is a sample application to show how the Azure Communication Services Calling Web SDK can be used to build a group calling experience. 
 The client-side application is a React based user interface which uses Redux for handling complex state while leveraging Microsoft Fluent UI. 
